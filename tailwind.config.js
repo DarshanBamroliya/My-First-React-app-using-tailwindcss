@@ -8,11 +8,11 @@ module.exports = {
       Franklin: ['Libre Franklin'],
     },
     extend: {
-      backgroundImage: theme => ({
-        'logobg': "url('C:/Users/Darshan/Desktop/REACT/travel/public/img/travel-detil-bg.png')",
-        'map': "url('C:/Users/Darshan/Desktop/REACT/travel/public/img/map.png')",
-        'Travel': "url('C:/Users/Darshan/Desktop/REACT/travel/public/img/Travel.svg')"
-      })
+      backgroundImage: {
+        // 'logobg': "url('/img/travel-detil-bg.png')",
+        // 'map': "url('/img/map.png')",
+        // 'Travel': "url('/img/Travel.svg')",
+      },
     },
   },
   plugins: [],
